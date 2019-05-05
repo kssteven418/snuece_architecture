@@ -1,0 +1,156 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2016.4/bin/unwrapped/lnx64.o/xelab -wto af618a2afb104b2393586127aa859f38 --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_TB_behav xil_defaultlib.cpu_TB xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port flush [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/cpu.v:338]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port flush [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/cpu.v:343]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/datapath.v:321]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port flush [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/cpu.v:339]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port flush [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/cpu.v:344]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port flush [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/cpu.v:345]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port flush [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/cpu.v:346]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port flush [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/datapath.v:458]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port flush [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v:251]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port flush [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v:252]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port flush [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v:253]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port flush [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v:255]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port flush [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v:256]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port flush [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v:257]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port flush [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v:258]
+WARNING: [VRFC 10-1783] select index 4 into writeReg is out of bounds [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/RegisterFile.v:56]
+WARNING: [VRFC 10-597] element index 4 into outs is out of bounds [/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/RegisterFile.v:56]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/ALU.v" Line 2. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/modules.v" Line 7. Module signExtension doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/modules.v" Line 29. Module forward doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/modules.v" Line 85. Module stalling doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/modules.v" Line 147. Module flushing doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/modules.v" Line 207. Module targetAddress doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/modules.v" Line 257. Module halt doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 109. Module IFID doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 129. Module IDEX doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 34. Module latch2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 34. Module latch2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 34. Module latch2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 34. Module latch2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 84. Module latch4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 221. Module EXMEM doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 34. Module latch2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 263. Module MEMWB doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 34. Module latch2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/control.v" Line 7. Module control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/HW7/DMA.v" Line 18. Module DMA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/HW7/external_device.v" Line 16. Module external_device doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 60. Module latch1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/ALU.v" Line 2. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v" Line 23. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/modules.v" Line 7. Module signExtension doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/modules.v" Line 29. Module forward doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/modules.v" Line 85. Module stalling doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/modules.v" Line 147. Module flushing doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/modules.v" Line 207. Module targetAddress doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/modules.v" Line 257. Module halt doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 109. Module IFID doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/steven/Desktop/vivado/HW7_DMA/DMA/DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v" Line 9. Module latch doesn't have a timescale but at least one module in design has a timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.cacheLine
+Compiling module xil_defaultlib.Icache_default
+Compiling module xil_defaultlib.Dcache_default
+Compiling module xil_defaultlib.latch1
+Compiling module xil_defaultlib.latch
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.RegisterFile_default
+Compiling module xil_defaultlib.signExtension
+Compiling module xil_defaultlib.forward
+Compiling module xil_defaultlib.stalling
+Compiling module xil_defaultlib.flushing
+Compiling module xil_defaultlib.targetAddress
+Compiling module xil_defaultlib.halt
+Compiling module xil_defaultlib.IFID
+Compiling module xil_defaultlib.latch2
+Compiling module xil_defaultlib.latch4
+Compiling module xil_defaultlib.IDEX
+Compiling module xil_defaultlib.EXMEM
+Compiling module xil_defaultlib.MEMWB
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.DMA
+Compiling module xil_defaultlib.external_device
+Compiling module xil_defaultlib.cpu_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_TB_behav

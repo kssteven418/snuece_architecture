@@ -1,0 +1,79 @@
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+          1 :     X,     X,     X,     X
+num_inst     0
+instruction : 0110000000000000
+num_inst     1
+          2 :     0,     X,     X,     X
+instruction : 0110000100000001
+num_inst     2
+          3 :     0,   256,     X,     X
+instruction : 0110001000000010
+num_inst     3
+          4 :     0,   256,   512,     X
+instruction : 0110001100000011
+num_inst     4
+          5 :     0,   256,   512,   768
+instruction : 1111000000011100
+num_inst     5
+PASS
+instruction : 1111010000011100
+num_inst     6
+PASS
+instruction : 1111100000011100
+num_inst     7
+PASS
+instruction : 1111110000011100
+num_inst     8
+PASS
+instruction : 0100001000000100
+num_inst     9
+          6 :     0,   256,     4,   768
+instruction : 0100011111111100
+num_inst    10
+          7 :     0,   256,     4,   252
+instruction : 1111100000011100
+num_inst    11
+PASS
+instruction : 1111110000011100
+num_inst    12
+PASS
+instruction : 1111011011000000
+num_inst    13
+          8 :     0,   256,     4,   260
+instruction : 1111000110000000
+num_inst    14
+          9 :     0,   256,   256,   260
+instruction : 1111100000011100
+num_inst    15
+PASS
+instruction : 1111110000011100
+num_inst    16
+PASS
+instruction : 1001000000010101
+num_inst    17
+instruction : 0110000000000000
+num_inst    18
+instruction : 0100000000000000
+num_inst    19
+instruction : 1111110110000000
+num_inst    20
+         10 :     0,   256,   516,   260
+instruction : 1111000000011100
+num_inst    21
+PASS
+instruction : 1111010000011100
+num_inst    22
+PASS
+instruction : 1111100000011100
+num_inst    23
+PASS
+instruction : 1111110000011100
+num_inst    24
+PASS
+instruction : xxxxxxxxxxxxxxxx
+num_inst    25
+num_inst    26
+num_inst    27
+num_inst    28
+num_inst    29

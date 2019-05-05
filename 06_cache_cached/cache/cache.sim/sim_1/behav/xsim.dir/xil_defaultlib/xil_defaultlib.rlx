@@ -1,0 +1,17 @@
+0.6
+2016.4
+Jan 23 2017
+19:19:20
+/home/steven/Desktop/vivado/HW6_cahce_new/cache/cache.sim/sim_1/behav/glbl.v,1485222234,verilog,,,,glbl,,,,,,,,
+/home/steven/Desktop/vivado/HW6_cahce_new/cache/cache.srcs/sim_1/imports/srcs/cpu_TB.v,1495793692,verilog,,,,cpu_TB,,,,,,,,
+/home/steven/Desktop/vivado/HW6_cahce_new/cache/cache.srcs/sources_1/imports/srcs/ALU.v,1494347050,verilog,,,,ALU,,,,,,,,
+/home/steven/Desktop/vivado/HW6_cahce_new/cache/cache.srcs/sources_1/imports/srcs/Register.v,1494346012,verilog,,,,Register,,,,,,,,
+/home/steven/Desktop/vivado/HW6_cahce_new/cache/cache.srcs/sources_1/imports/srcs/RegisterFile.v,1495604679,verilog,,,,RegisterFile,,,,,,,,
+/home/steven/Desktop/vivado/HW6_cahce_new/cache/cache.srcs/sources_1/imports/srcs/control.v,1495624299,verilog,,,,control,,,,,,,,
+/home/steven/Desktop/vivado/HW6_cahce_new/cache/cache.srcs/sources_1/imports/srcs/cpu.v,1495805592,verilog,,,/home/steven/Desktop/vivado/HW6_cahce_new/cache/cache.srcs/sources_1/imports/srcs/opcodes.v,cpu,,,,,,,,
+/home/steven/Desktop/vivado/HW6_cahce_new/cache/cache.srcs/sources_1/imports/srcs/datapath.v,1495805599,verilog,,,,datapath,,,,,,,,
+/home/steven/Desktop/vivado/HW6_cahce_new/cache/cache.srcs/sources_1/imports/srcs/latches.v,1495729570,verilog,,,,EXMEM;IDEX;IFID;MEMWB;latch;latch1;latch2;latch4,,,,,,,,
+/home/steven/Desktop/vivado/HW6_cahce_new/cache/cache.srcs/sources_1/imports/srcs/memory.v,1495798937,verilog,,,,Memory,,,,,,,,
+/home/steven/Desktop/vivado/HW6_cahce_new/cache/cache.srcs/sources_1/imports/srcs/modules.v,1495731017,verilog,,,,flushing;forward;halt;signExtension;stalling;targetAddress,,,,,,,,
+/home/steven/Desktop/vivado/HW6_cahce_new/cache/cache.srcs/sources_1/imports/srcs/opcodes.v,1491916486,verilog,,,,,,,,,,,,
+/home/steven/Desktop/vivado/HW6_cahce_new/cache/cache.srcs/sources_1/new/cache.v,1495806982,verilog,,,,Dcache;Icache;cacheLine,,,,,,,,

@@ -1,0 +1,17 @@
+0.6
+2016.4
+Jan 23 2017
+19:19:20
+/home/steven/Desktop/vivado/HW5_pipeline/pipelined_CPU/pipelined_CPU.sim/sim_1/behav/glbl.v,1485222234,verilog,,,,glbl,,,,,,,,
+/home/steven/Desktop/vivado/HW5_pipeline/pipelined_CPU/pipelined_CPU.srcs/sim_1/imports/HW5/cpu_TB.v,1494818505,verilog,,,,cpu_TB,,,,,,,,
+/home/steven/Desktop/vivado/HW5_pipeline/pipelined_CPU/pipelined_CPU.srcs/sources_1/imports/HW5/cpu.v,1494825179,verilog,,,/home/steven/Desktop/vivado/HW5_pipeline/pipelined_CPU/pipelined_CPU.srcs/sources_1/imports/HW5/opcodes.v,cpu,,,,,,,,
+/home/steven/Desktop/vivado/HW5_pipeline/pipelined_CPU/pipelined_CPU.srcs/sources_1/imports/HW5/memory.v,1494736318,verilog,,,,Memory,,,,,,,,
+/home/steven/Desktop/vivado/HW5_pipeline/pipelined_CPU/pipelined_CPU.srcs/sources_1/imports/HW5/opcodes.v,1491916486,verilog,,,,,,,,,,,,
+/home/steven/Desktop/vivado/HW5_pipeline/pipelined_CPU/pipelined_CPU.srcs/sources_1/imports/new/ALU.v,1494347050,verilog,,,,ALU,,,,,,,,
+/home/steven/Desktop/vivado/HW5_pipeline/pipelined_CPU/pipelined_CPU.srcs/sources_1/imports/new/Register.v,1494346012,verilog,,,,Register,,,,,,,,
+/home/steven/Desktop/vivado/HW5_pipeline/pipelined_CPU/pipelined_CPU.srcs/sources_1/imports/new/RegisterFile.v,1494650587,verilog,,,,RegisterFile,,,,,,,,
+/home/steven/Desktop/vivado/HW5_pipeline/pipelined_CPU/pipelined_CPU.srcs/sources_1/new/branchPredictor.v,1494825173,verilog,,,,bht;bhtLine;brenchPred;btb;btbLine,,,,,,,,
+/home/steven/Desktop/vivado/HW5_pipeline/pipelined_CPU/pipelined_CPU.srcs/sources_1/new/control.v,1494651286,verilog,,,,control,,,,,,,,
+/home/steven/Desktop/vivado/HW5_pipeline/pipelined_CPU/pipelined_CPU.srcs/sources_1/new/datapath.v,1494820813,verilog,,,,datapath,,,,,,,,
+/home/steven/Desktop/vivado/HW5_pipeline/pipelined_CPU/pipelined_CPU.srcs/sources_1/new/latches.v,1494729715,verilog,,,,EXMEM;IDEX;IFID;MEMWB;latch;latch1;latch2;latch4,,,,,,,,
+/home/steven/Desktop/vivado/HW5_pipeline/pipelined_CPU/pipelined_CPU.srcs/sources_1/new/modules.v,1494823746,verilog,,,,flushing;forward;halt;signExtension;stalling;targetAddress,,,,,,,,

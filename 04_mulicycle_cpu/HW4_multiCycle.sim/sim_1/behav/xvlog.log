@@ -1,0 +1,55 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+WARNING: [VRFC 10-1315] redeclaration of ansi port out is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/Register.v:31]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/Register.v:35]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+WARNING: [VRFC 10-1315] redeclaration of ansi port data1 is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/RegisterFile.v:52]
+WARNING: [VRFC 10-1315] redeclaration of ansi port data2 is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/RegisterFile.v:53]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+WARNING: [VRFC 10-1315] redeclaration of ansi port C is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/ALU.v:11]
+WARNING: [VRFC 10-1315] redeclaration of ansi port Cout is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/ALU.v:12]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/Architecture/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+WARNING: [VRFC 10-1315] redeclaration of ansi port data is not allowed [/home/steven/Desktop/Architecture/memory.v:11]
+WARNING: [VRFC 10-1315] redeclaration of ansi port inputReady is not allowed [/home/steven/Desktop/Architecture/memory.v:13]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/Architecture/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+WARNING: [VRFC 10-1315] redeclaration of ansi port num_inst is not allowed [/home/steven/Desktop/Architecture/cpu.v:54]
+WARNING: [VRFC 10-1315] redeclaration of ansi port output_port is not allowed [/home/steven/Desktop/Architecture/cpu.v:55]
+INFO: [VRFC 10-311] analyzing module control
+WARNING: [VRFC 10-1315] redeclaration of ansi port memFromPC is not allowed [/home/steven/Desktop/Architecture/cpu.v:159]
+WARNING: [VRFC 10-1315] redeclaration of ansi port memToRF is not allowed [/home/steven/Desktop/Architecture/cpu.v:160]
+WARNING: [VRFC 10-1315] redeclaration of ansi port RFsrc is not allowed [/home/steven/Desktop/Architecture/cpu.v:161]
+WARNING: [VRFC 10-1315] redeclaration of ansi port ALUsrc1 is not allowed [/home/steven/Desktop/Architecture/cpu.v:162]
+WARNING: [VRFC 10-1315] redeclaration of ansi port ALUsrc2 is not allowed [/home/steven/Desktop/Architecture/cpu.v:163]
+WARNING: [VRFC 10-1315] redeclaration of ansi port pcsrc is not allowed [/home/steven/Desktop/Architecture/cpu.v:164]
+WARNING: [VRFC 10-1315] redeclaration of ansi port branch is not allowed [/home/steven/Desktop/Architecture/cpu.v:165]
+WARNING: [VRFC 10-1315] redeclaration of ansi port JAL is not allowed [/home/steven/Desktop/Architecture/cpu.v:166]
+WARNING: [VRFC 10-1315] redeclaration of ansi port pc_enable is not allowed [/home/steven/Desktop/Architecture/cpu.v:168]
+WARNING: [VRFC 10-1315] redeclaration of ansi port IR_enable is not allowed [/home/steven/Desktop/Architecture/cpu.v:169]
+WARNING: [VRFC 10-1315] redeclaration of ansi port ALUout_enable is not allowed [/home/steven/Desktop/Architecture/cpu.v:170]
+WARNING: [VRFC 10-1315] redeclaration of ansi port regWrite is not allowed [/home/steven/Desktop/Architecture/cpu.v:171]
+WARNING: [VRFC 10-1315] redeclaration of ansi port readM is not allowed [/home/steven/Desktop/Architecture/cpu.v:172]
+WARNING: [VRFC 10-1315] redeclaration of ansi port writeM is not allowed [/home/steven/Desktop/Architecture/cpu.v:173]
+WARNING: [VRFC 10-1315] redeclaration of ansi port alucode is not allowed [/home/steven/Desktop/Architecture/cpu.v:174]
+WARNING: [VRFC 10-1315] redeclaration of ansi port num_inst is not allowed [/home/steven/Desktop/Architecture/cpu.v:179]
+WARNING: [VRFC 10-1315] redeclaration of ansi port output_port_enable is not allowed [/home/steven/Desktop/Architecture/cpu.v:180]
+WARNING: [VRFC 10-1315] redeclaration of ansi port is_halted is not allowed [/home/steven/Desktop/Architecture/cpu.v:183]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [/home/steven/Desktop/Architecture/cpu.v:239]
+INFO: [VRFC 10-311] analyzing module datapath
+WARNING: [VRFC 10-1315] redeclaration of ansi port pc_out is not allowed [/home/steven/Desktop/Architecture/cpu.v:584]
+WARNING: [VRFC 10-1315] redeclaration of ansi port output_port is not allowed [/home/steven/Desktop/Architecture/cpu.v:622]
+WARNING: [VRFC 10-1315] redeclaration of ansi port opcode is not allowed [/home/steven/Desktop/Architecture/cpu.v:624]
+WARNING: [VRFC 10-1315] redeclaration of ansi port ftncode is not allowed [/home/steven/Desktop/Architecture/cpu.v:625]
+INFO: [VRFC 10-311] analyzing module latch
+WARNING: [VRFC 10-1315] redeclaration of ansi port out is not allowed [/home/steven/Desktop/Architecture/cpu.v:744]
+INFO: [VRFC 10-311] analyzing module signExtension
+WARNING: [VRFC 10-1315] redeclaration of ansi port out is not allowed [/home/steven/Desktop/Architecture/cpu.v:767]
+INFO: [VRFC 10-311] analyzing module targetAddress
+WARNING: [VRFC 10-1315] redeclaration of ansi port address is not allowed [/home/steven/Desktop/Architecture/cpu.v:789]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/Architecture/cpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW4_multiCycle/HW4_multiCycle.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

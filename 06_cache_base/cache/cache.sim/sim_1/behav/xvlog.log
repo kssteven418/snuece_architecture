@@ -1,0 +1,122 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+WARNING: [VRFC 10-1315] redeclaration of ansi port out is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/Register.v:31]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/Register.v:35]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+WARNING: [VRFC 10-1315] redeclaration of ansi port data1 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/RegisterFile.v:61]
+WARNING: [VRFC 10-1315] redeclaration of ansi port data2 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/RegisterFile.v:62]
+WARNING: [VRFC 10-1315] redeclaration of ansi port out0 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/RegisterFile.v:70]
+WARNING: [VRFC 10-1315] redeclaration of ansi port out1 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/RegisterFile.v:71]
+WARNING: [VRFC 10-1315] redeclaration of ansi port out2 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/RegisterFile.v:72]
+WARNING: [VRFC 10-1315] redeclaration of ansi port out3 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/RegisterFile.v:73]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/modules.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtension
+WARNING: [VRFC 10-1315] redeclaration of ansi port out is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/modules.v:13]
+INFO: [VRFC 10-311] analyzing module forward
+WARNING: [VRFC 10-1315] redeclaration of ansi port ALUsrc1 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/modules.v:43]
+WARNING: [VRFC 10-1315] redeclaration of ansi port ALUsrc2 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/modules.v:44]
+INFO: [VRFC 10-311] analyzing module stalling
+WARNING: [VRFC 10-1315] redeclaration of ansi port isStalled is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/modules.v:94]
+INFO: [VRFC 10-311] analyzing module flushing
+WARNING: [VRFC 10-1315] redeclaration of ansi port IFID_Flush is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/modules.v:151]
+WARNING: [VRFC 10-1315] redeclaration of ansi port IDEX_Flush is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/modules.v:152]
+WARNING: [VRFC 10-1315] redeclaration of ansi port PCsrc is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/modules.v:153]
+INFO: [VRFC 10-311] analyzing module targetAddress
+WARNING: [VRFC 10-1315] redeclaration of ansi port jumpAddr is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/modules.v:216]
+WARNING: [VRFC 10-1315] redeclaration of ansi port jumpRAddr is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/modules.v:217]
+WARNING: [VRFC 10-1315] redeclaration of ansi port branchAddr is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/modules.v:218]
+INFO: [VRFC 10-311] analyzing module halt
+WARNING: [VRFC 10-1315] redeclaration of ansi port is_halted is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/modules.v:260]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+WARNING: [VRFC 10-1315] redeclaration of ansi port C is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/ALU.v:11]
+WARNING: [VRFC 10-1315] redeclaration of ansi port Cout is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/ALU.v:12]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/latches.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module latch
+WARNING: [VRFC 10-1315] redeclaration of ansi port out is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/latches.v:17]
+INFO: [VRFC 10-311] analyzing module latch2
+WARNING: [VRFC 10-1315] redeclaration of ansi port out is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/latches.v:42]
+INFO: [VRFC 10-311] analyzing module latch1
+WARNING: [VRFC 10-1315] redeclaration of ansi port out is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/latches.v:68]
+INFO: [VRFC 10-311] analyzing module latch4
+WARNING: [VRFC 10-1315] redeclaration of ansi port out is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/latches.v:92]
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-311] analyzing module IDEX
+INFO: [VRFC 10-311] analyzing module EXMEM
+INFO: [VRFC 10-311] analyzing module MEMWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+WARNING: [VRFC 10-1315] redeclaration of ansi port inst is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:75]
+WARNING: [VRFC 10-1315] redeclaration of ansi port to_output_port is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:76]
+WARNING: [VRFC 10-1315] redeclaration of ansi port is_halted is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:77]
+WARNING: [VRFC 10-1315] redeclaration of ansi port isStalled is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:80]
+WARNING: [VRFC 10-1315] redeclaration of ansi port IFID_Flush is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:81]
+WARNING: [VRFC 10-1315] redeclaration of ansi port IDEX_Flush is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:82]
+WARNING: [VRFC 10-1315] redeclaration of ansi port EX_inst is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:84]
+WARNING: [VRFC 10-1315] redeclaration of ansi port PC_enable is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:87]
+WARNING: [VRFC 10-1315] redeclaration of ansi port IDEX_enable is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:89]
+WARNING: [VRFC 10-1315] redeclaration of ansi port out1 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:119]
+WARNING: [VRFC 10-1315] redeclaration of ansi port out2 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:120]
+WARNING: [VRFC 10-1315] redeclaration of ansi port out3 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:121]
+WARNING: [VRFC 10-1315] redeclaration of ansi port out0 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:122]
+WARNING: [VRFC 10-1315] redeclaration of ansi port IFID_inst_in is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:134]
+WARNING: [VRFC 10-1315] redeclaration of ansi port IFID_inst_out is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:140]
+WARNING: [VRFC 10-1315] redeclaration of ansi port RF_val1 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:146]
+WARNING: [VRFC 10-1315] redeclaration of ansi port RF_val2 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:147]
+WARNING: [VRFC 10-1315] redeclaration of ansi port ALU_in1 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:170]
+WARNING: [VRFC 10-1315] redeclaration of ansi port ALU_out is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:172]
+WARNING: [VRFC 10-1315] redeclaration of ansi port i_readM is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:325]
+WARNING: [VRFC 10-1315] redeclaration of ansi port i_writeM is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:326]
+WARNING: [VRFC 10-1315] redeclaration of ansi port i_address is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:327]
+WARNING: [VRFC 10-1315] redeclaration of ansi port i_data is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:328]
+WARNING: [VRFC 10-1315] redeclaration of ansi port d_readM is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:340]
+WARNING: [VRFC 10-1315] redeclaration of ansi port d_writeM is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:341]
+WARNING: [VRFC 10-1315] redeclaration of ansi port d_address is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:342]
+WARNING: [VRFC 10-1315] redeclaration of ansi port d_data is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/datapath.v:343]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+WARNING: [VRFC 10-1315] redeclaration of ansi port ALUsrc is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/control.v:31]
+WARNING: [VRFC 10-1315] redeclaration of ansi port RegDist is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/control.v:32]
+WARNING: [VRFC 10-1315] redeclaration of ansi port MemWrite is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/control.v:33]
+WARNING: [VRFC 10-1315] redeclaration of ansi port MemRead is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/control.v:34]
+WARNING: [VRFC 10-1315] redeclaration of ansi port MemtoReg is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/control.v:35]
+WARNING: [VRFC 10-1315] redeclaration of ansi port RegWrite is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/control.v:36]
+WARNING: [VRFC 10-1315] redeclaration of ansi port Alucode is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/control.v:37]
+WARNING: [VRFC 10-1315] redeclaration of ansi port Jump is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/control.v:38]
+WARNING: [VRFC 10-1315] redeclaration of ansi port JumpR is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/control.v:39]
+WARNING: [VRFC 10-1315] redeclaration of ansi port Branch is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/control.v:40]
+WARNING: [VRFC 10-1315] redeclaration of ansi port Halt is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/control.v:41]
+WARNING: [VRFC 10-1315] redeclaration of ansi port isFetched is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/control.v:43]
+WARNING: [VRFC 10-1315] redeclaration of ansi port WWD is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/control.v:44]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/opcodes.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+WARNING: [VRFC 10-1315] redeclaration of ansi port to_num_inst is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:56]
+WARNING: [VRFC 10-1315] redeclaration of ansi port num_inst is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:57]
+WARNING: [VRFC 10-1315] redeclaration of ansi port output_port is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:59]
+WARNING: [VRFC 10-1315] redeclaration of ansi port ALU_in1 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:79]
+WARNING: [VRFC 10-1315] redeclaration of ansi port RF_val1 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:80]
+WARNING: [VRFC 10-1315] redeclaration of ansi port RF_val2 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:81]
+WARNING: [VRFC 10-1315] redeclaration of ansi port out1 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:83]
+WARNING: [VRFC 10-1315] redeclaration of ansi port out2 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:84]
+WARNING: [VRFC 10-1315] redeclaration of ansi port out3 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:85]
+WARNING: [VRFC 10-1315] redeclaration of ansi port out0 is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:86]
+WARNING: [VRFC 10-1315] redeclaration of ansi port ID_WWD is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:91]
+WARNING: [VRFC 10-1315] redeclaration of ansi port EX_WWD is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:92]
+WARNING: [VRFC 10-1315] redeclaration of ansi port IFID_Flush is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:94]
+WARNING: [VRFC 10-1315] redeclaration of ansi port IDEX_Flush is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:95]
+WARNING: [VRFC 10-1315] redeclaration of ansi port PC_enable is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:123]
+WARNING: [VRFC 10-1315] redeclaration of ansi port IF_inst is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:124]
+WARNING: [VRFC 10-1315] redeclaration of ansi port ID_inst is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:125]
+WARNING: [VRFC 10-1315] redeclaration of ansi port EX_inst is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:126]
+WARNING: [VRFC 10-1315] redeclaration of ansi port ALU_out is not allowed [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:127]
+INFO: [VRFC 10-2458] undeclared symbol Halt, assumed default net type wire [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/cpu.v:160]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sources_1/imports/srcs/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sim_1/imports/srcs/cpu_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_TB
+INFO: [VRFC 10-2458] undeclared symbol ID_WWD, assumed default net type wire [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sim_1/imports/srcs/cpu_TB.v:104]
+INFO: [VRFC 10-2458] undeclared symbol EX_WWD, assumed default net type wire [/home/steven/Desktop/vivado/HW6_cache/cache/cache.srcs/sim_1/imports/srcs/cpu_TB.v:105]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW6_cache/cache/cache.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../DMA.srcs/sources_1/imports/sources_1/imports/srcs/Register.v"
+verilog xil_defaultlib  "../../../DMA.srcs/sources_1/imports/sources_1/imports/srcs/ALU.v"
+verilog xil_defaultlib  "../../../DMA.srcs/sources_1/imports/sources_1/imports/srcs/RegisterFile.v"
+verilog xil_defaultlib  "../../../DMA.srcs/sources_1/imports/sources_1/imports/srcs/latches.v"
+verilog xil_defaultlib  "../../../DMA.srcs/sources_1/imports/sources_1/imports/srcs/modules.v"
+verilog xil_defaultlib  "../../../DMA.srcs/sources_1/imports/sources_1/new/cache.v"
+verilog xil_defaultlib  "../../../DMA.srcs/sources_1/imports/sources_1/imports/srcs/datapath.v"
+verilog xil_defaultlib  "../../../DMA.srcs/sources_1/imports/sources_1/imports/srcs/control.v"
+verilog xil_defaultlib  "../../../DMA.srcs/sources_1/imports/sources_1/imports/srcs/memory.v"
+verilog xil_defaultlib  "../../../DMA.srcs/sources_1/imports/HW7/external_device.v"
+verilog xil_defaultlib  "../../../DMA.srcs/sources_1/imports/HW7/DMA.v"
+verilog xil_defaultlib  "../../../DMA.srcs/sources_1/imports/sources_1/imports/srcs/cpu.v"
+verilog xil_defaultlib  "../../../DMA.srcs/sim_1/imports/srcs/cpu_TB.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

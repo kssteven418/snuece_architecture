@@ -1,0 +1,45 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+WARNING: [VRFC 10-1315] redeclaration of ansi port out is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/Register.v:30]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/Register.v:34]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+WARNING: [VRFC 10-1315] redeclaration of ansi port data1 is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/RegisterFile.v:51]
+WARNING: [VRFC 10-1315] redeclaration of ansi port data2 is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/RegisterFile.v:52]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+WARNING: [VRFC 10-1315] redeclaration of ansi port C is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/ALU.v:11]
+WARNING: [VRFC 10-1315] redeclaration of ansi port Cout is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/ALU.v:12]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+WARNING: [VRFC 10-1315] redeclaration of ansi port num_inst is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:55]
+WARNING: [VRFC 10-1315] redeclaration of ansi port output_port is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:56]
+WARNING: [VRFC 10-1315] redeclaration of ansi port data is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:58]
+WARNING: [VRFC 10-1315] redeclaration of ansi port address is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:62]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:89]
+WARNING: [VRFC 10-1315] redeclaration of ansi port readM is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:91]
+WARNING: [VRFC 10-756] identifier PC is used before its declaration [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:63]
+WARNING: [VRFC 10-756] identifier jump is used before its declaration [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:70]
+INFO: [VRFC 10-311] analyzing module Controller
+WARNING: [VRFC 10-1315] redeclaration of ansi port regDst is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:151]
+WARNING: [VRFC 10-1315] redeclaration of ansi port ALUsrc is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:152]
+WARNING: [VRFC 10-1315] redeclaration of ansi port regWrite is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:153]
+WARNING: [VRFC 10-1315] redeclaration of ansi port OP is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:154]
+WARNING: [VRFC 10-1315] redeclaration of ansi port jump is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:155]
+WARNING: [VRFC 10-1315] redeclaration of ansi port LHI is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:156]
+WARNING: [VRFC 10-1315] redeclaration of ansi port WWD is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:157]
+INFO: [VRFC 10-311] analyzing module DataPath
+WARNING: [VRFC 10-1315] redeclaration of ansi port ftncode is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:237]
+WARNING: [VRFC 10-1315] redeclaration of ansi port opcode is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:238]
+WARNING: [VRFC 10-1315] redeclaration of ansi port jumpAddr is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:239]
+WARNING: [VRFC 10-1315] redeclaration of ansi port outData is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:240]
+INFO: [VRFC 10-311] analyzing module SignExtension
+WARNING: [VRFC 10-1315] redeclaration of ansi port out is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:301]
+INFO: [VRFC 10-311] analyzing module LHIConcaternate
+WARNING: [VRFC 10-1315] redeclaration of ansi port out is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:316]
+INFO: [VRFC 10-311] analyzing module JumpConcaternate
+WARNING: [VRFC 10-1315] redeclaration of ansi port PC_jump is not allowed [/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sources_1/new/cpu.v:329]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.srcs/sim_1/new/cpu_evaluation_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_evaluation_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/steven/Desktop/vivado/HW3_singleCycle/HW3_singleCycle.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
